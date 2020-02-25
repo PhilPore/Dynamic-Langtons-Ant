@@ -1,0 +1,26 @@
+Traverser:
+
+- Orientation
+- Unique step count variable (for collision)
+- Left Right enums
+- Two maps for row and col
+
+
+Functions:
+- updating unique steps variable
+- Traverser collision, if activated
+- Maybe overlap?
+
+Grid:
+- Dynamically make ants with ncurses. How will we account for them?
+- Generating a grid that doesnt always need to refresh - > done by ncurses
+- Keeping the traverser(s) in the grid (or maybe this needs to be in the function to do)
+- Overlap if the collision flag is not active
+- Representation for the ants
+- 2d grid, likely going to use ascii similar to dwarfs fortress
+??? what kind of wacky stuff do I want to add?
+
+
+
+
+
